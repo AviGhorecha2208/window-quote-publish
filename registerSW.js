@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/window-quote-publish/sw.js', { scope: '/window-quote-publish/' })})}
